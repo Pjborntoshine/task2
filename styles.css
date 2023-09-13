@@ -1,0 +1,214 @@
+body,
+h1,
+h2,
+p {
+  background-color: rgb(206, 218, 222);
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgb(206, 218, 222);
+  
+  
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Slider styles */
+.slider-container {
+  
+  width: 100%;
+  max-width: 1540px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 450px;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #222;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-prev {
+  margin-left: 20px;
+}
+
+.btn-next {
+  margin-right: 20px;
+}
+.slider-text-1 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 24px; /* Adjust the font size */
+    font-weight: bold; /* Add font weight if desired */
+    color: #333; /* Choose your desired text color */
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+  
+  /* Style the second <p> element */
+  .slider-text-2 {
+    text-align: center;
+    font-size: 18px; /* Adjust the font size */
+    font-weight: normal; /* Set font weight to normal */
+    color: #777; /* Choose your desired text color */
+  }
+  /* Slider container */
+.slider-container2 {
+    
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 23%;
+    margin-top: 2%;
+}
+
+/* Individual slide */
+.slide2 {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+/* Slide images */
+.slide2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Control buttons */
+.btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.btn:active {
+    transform: scale(1.1);
+}
+
+.btn-prev {
+    top: 45%;
+    left: 2%;
+}
+
+.btn-next {
+    top: 45%;
+    right: 2%;
+}
+
+
+.pic1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the text content on the right */
+.name1 {
+    width: 50%; /* Adjust the width as needed */
+    padding: 70px;
+
+}
+
+/* Style for the right image */
+.right-image img {
+    margin-top: 30%;
+    width: 70%; /* Adjust the width as needed */
+    
+}
+.B{
+    font-size: 13px;
+    font-family: ApercuPro-Bold,Source Sans Pro,Helvetica,sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    border: none;
+    min-width: 200px;
+    background-color: bisque;
+
+}
+
+
+  
